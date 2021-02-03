@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "woozee-compute-science": {
+      "hosting": {
+        "woozee-computer-science": [
+          "woozee-compute-science"
+        ]
+      }
+    }
+  }
+}
