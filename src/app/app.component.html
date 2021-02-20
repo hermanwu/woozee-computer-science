@@ -1,4 +1,5 @@
-<mat-sidenav-container>
-  <mat-sidenav mode="side" opened>Sidenav content</mat-sidenav>
-  <mat-sidenav-content><router-outlet></router-outlet></mat-sidenav-content>
-</mat-sidenav-container>
+<woozee-top-bar></woozee-top-bar>
+
+<woozee-side-nav [routeList]="routes"
+  ><router-outlet></router-outlet
+></woozee-side-nav>

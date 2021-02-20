@@ -3,8 +3,23 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'woozee-computer-science';
+  title = 'Computer Science';
+
+  routes = [
+    {
+      name: '行为类面试题',
+      route: 'behavior',
+    },
+    {
+      name: 'API design',
+      route: 'api-design',
+    },
+    {
+      name: 'Design System',
+      route: 'design-system',
+    },
+  ];
 }
