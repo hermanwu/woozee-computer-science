@@ -21,5 +21,21 @@ export class AppComponent {
       name: 'Design System',
       route: 'design-system',
     },
+    {
+      name: '数据结构',
+      route: 'data-structure',
+    },
+    {
+      name: '算法',
+      route: 'algorithm',
+    },
+    {
+      name: '前端开发',
+      route: 'front-end',
+    },
+    {
+      name: '简历Tips',
+      route: 'resume-tips',
+    },
   ];
 }
