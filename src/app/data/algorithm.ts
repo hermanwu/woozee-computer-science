@@ -8,4 +8,23 @@ const promblems = [
       'https://photos.google.com/u/6/share/AF1QipMM5BFHLlCOxn6dPq6Hi4OQf0iD2o9z2ZFP2JgnxVFO-4zvoyVEVKJN7JCzVF5dYQ/photo/AF1QipPqi1cwP4Xw5FGftVa4nOCscpbqXrPwXXdehrzr?key=ZUE5VDlWVldNM21HMmlBeU5qbEdzS3UzRXFDM1BR',
     topic: ['array', 'sort', 'interval', 'fast-slow-pointer'],
   },
+  {
+    link: 'https://leetcode.com/problems/number-of-islands/',
+    title: '200 Number of Islands',
+    algorithm: ['DFS'],
+    dataStructure: ['Matrix'],
+  },
+  {
+    link: 'https://leetcode.com/problems/number-of-islands/',
+    title: '200 Number of Islands',
+    algorithm: ['DFS'],
+    dataStructure: ['Matrix'],
+  },
+  {
+    link: 'https://leetcode.com/problems/number-of-distinct-islands/',
+    title: 'Number of Distinct Islands',
+    algorithm: ['DFS'],
+    dataStructure: ['Matrix', 'Set'],
+    tip: 'Use string to store iteration',
+  },
 ];
