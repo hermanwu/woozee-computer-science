@@ -1,3 +1,5 @@
+import { Algorithm } from './algorithm.enum';
+
 const promblems = [
   {
     link: 'https://leetcode.com/problems/merge-intervals/',
@@ -21,10 +23,23 @@ const promblems = [
     dataStructure: ['Matrix'],
   },
   {
-    link: 'https://leetcode.com/problems/number-of-distinct-islands/',
+    questionsLinks: [
+      'https://leetcode.com/problems/number-of-distinct-islands/',
+    ],
+    solutionLinks: [''],
     title: 'Number of Distinct Islands',
     algorithm: ['DFS'],
     dataStructure: ['Matrix', 'Set'],
     tip: 'Use string to store iteration',
+  },
+  {
+    questionLink: 'https://www.lintcode.com/problem/570/',
+    solutionLink: '',
+    title: 'Find the Missing Number II',
+    algorithm: [Algorithm.BACK_TRACKING, Algorithm.SEARCH_DFS],
+    note: {
+      text:
+        'use a global variable to track if a result has been found during DFS',
+    },
   },
 ];
