@@ -54,4 +54,6 @@ export enum Algorithm {
   ROLLING_HASH = '',
 
   RANDOM = '',
+
+  RESERVOIR_SAMPLING = '',
 }

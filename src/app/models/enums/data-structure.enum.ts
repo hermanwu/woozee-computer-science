@@ -7,6 +7,7 @@ export enum DataStructure {
   QUEUE = '',
   QUEUE_MONOTONIC = '',
   DEQUE = '',
+  PRIORITY_QUEUE = '',
 
   STACK = '',
   STACK_MONOTONIC = '',
@@ -19,6 +20,7 @@ export enum DataStructure {
   BIPARTITE_GRAPH = '',
 
   HASH_TABLE = '',
+  ROLLING_HASH = '',
 
   TRIE = '',
   UNION_FIND = '',

@@ -1,4 +1,4 @@
-import { Algorithm } from './algorithm.enum';
+import { Algorithm } from '../models/enums/algorithm.enum';
 
 const promblems = [
   {
