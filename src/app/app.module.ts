@@ -12,6 +12,7 @@ import { FrontEndComponent } from './front-end/front-end.component';
 import { AppMaterialModule } from './shared/app-material.module';
 import { ResumeTipsComponent } from './resume-tips/resume-tips.component';
 import { AlgorithmComponent } from './algorithm/algorithm.component';
+import { ProblemTableComponent } from './molecules/problem-table/problem-table.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AlgorithmComponent } from './algorithm/algorithm.component';
     FrontEndComponent,
     ResumeTipsComponent,
     AlgorithmComponent,
+    ProblemTableComponent,
   ],
   imports: [
     BrowserModule,

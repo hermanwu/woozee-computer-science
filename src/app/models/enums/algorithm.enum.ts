@@ -1,6 +1,6 @@
 export enum Algorithm {
   TWO_POINTERS = '双指针',
-  TWO_POINTERS_SAME_DIRECTION = '',
+  TWO_POINTERS_SAME_DIRECTION = '双指针-同向',
   TWO_POINTERS_OPPOSITE_DIRECTION = '',
 
   DIVIDE_AND_CONQUER = '',
