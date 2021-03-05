@@ -35,7 +35,7 @@ export enum Algorithm {
   DP_TREE = '',
 
   SEARCH_MEMORIZATION = '',
-  SEARCH_DFS = '',
+  SEARCH_DFS = '深度优先搜索',
   SEARCH_BFS = '',
   SEARCH_BINARY_SEARCH = '',
   SEARCH_BINARY_SEARCH_ON_ANSWER = '',

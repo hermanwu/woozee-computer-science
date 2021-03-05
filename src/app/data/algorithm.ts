@@ -1,5 +1,6 @@
 import { Algorithm } from '../models/enums/algorithm.enum';
 import { DataStructure } from '../models/enums/data-structure.enum';
+import { QuestionTopic } from '../models/enums/question-topic.enum';
 import { Question } from '../models/question';
 
 export const problems: Array<Question> = [
@@ -47,5 +48,17 @@ export const problems: Array<Question> = [
       text:
         'use a global variable to track if a result has been found during DFS',
     },
+    topics: [],
+  },
+
+  {
+    links: 'https://leetcode.com/problems/word-search/',
+    title: '79. Word Search',
+    algorithm: [Algorithm.SEARCH_DFS, Algorithm.BACK_TRACKING],
+    dataStructure: [DataStructure.MATRIX],
+    note: {
+      text: 'remember to set and unset visited characters',
+    },
+    topics: [QuestionTopic.WORD],
   },
 ];

@@ -1,7 +1,8 @@
 export enum DataStructure {
   ARRAY = '',
+  MATRIX = '矩阵',
   STRING = '',
-  LinkedList = '链',
+  LinkedList = '单向链',
   LinkedList_DOUBLY_LINKED = '',
 
   QUEUE = '',

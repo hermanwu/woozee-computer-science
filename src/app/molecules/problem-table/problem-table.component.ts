@@ -12,7 +12,12 @@ export class ProblemTableComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort;
 
   @Input() problems: Array<Question>;
-  readonly columnsToDisplay = ['title', 'algorithm', 'data-structure'];
+  readonly columnsToDisplay = [
+    'title',
+    'algorithm',
+    'data-structure',
+    'question-topic',
+  ];
 
   dataSource = new MatTableDataSource<any>();
 
