@@ -1,5 +1,6 @@
 import { Algorithm } from '../models/enums/algorithm.enum';
 import { DataStructure } from '../models/enums/data-structure.enum';
+import { Methodology } from '../models/enums/methodology.enum';
 import { QuestionTopic } from '../models/enums/question-topic.enum';
 import { Question } from '../models/question';
 
@@ -60,5 +61,17 @@ export const problems: Array<Question> = [
       text: 'remember to set and unset visited characters',
     },
     topics: [QuestionTopic.WORD],
+  },
+  {
+    links: 'https://leetcode.com/problems/decode-string/',
+    title: '394. Decode String',
+    methodology: [Methodology.RECURSION],
+    dataStructure: [DataStructure.STACK],
+    difficulty: 'medium',
+    note: {
+      text:
+        'Use an object to track multiple state: i.e. index, count, repeating string, result',
+    },
+    topics: [QuestionTopic.STRING_MANIPULATION],
   },
 ];

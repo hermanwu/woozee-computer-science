@@ -22,7 +22,7 @@ export enum Algorithm {
 
   MINIMUM_SPANNING_TREE = '',
 
-  BACK_TRACKING = '',
+  BACK_TRACKING = '回溯 - explore possibility',
 
   DP_DYNAMIC_PROGRAMMING = '',
   DP_BACKPACK = '',
