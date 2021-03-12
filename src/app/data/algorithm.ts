@@ -74,4 +74,18 @@ export const problems: Array<Question> = [
     },
     topics: [QuestionTopic.STRING_MANIPULATION],
   },
+  {
+    links: 'https://leetcode.com/problems/sum-root-to-leaf-numbers/',
+    title: '129. Sum Root to Leaf Numbers',
+    methodology: [
+      Methodology.RECURSION_WITH_RESULT,
+      Methodology.TREE_LEVEL_ORDER_TRAVERSAL,
+    ],
+    dataStructure: [DataStructure.TREE_BINARY_TREE],
+    difficulty: 'medium',
+    note: {
+      text: 'leaf node first -> then left and right node',
+    },
+    topics: [QuestionTopic.TREE_TRAVERSALS],
+  },
 ];
