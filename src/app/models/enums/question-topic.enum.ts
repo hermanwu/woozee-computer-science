@@ -3,4 +3,6 @@ export enum QuestionTopic {
   STRING_MANIPULATION = 'String Manipulation 字符处理',
 
   TREE_TRAVERSALS = '树的转移',
+
+  PERMUTATION = '排列',
 }

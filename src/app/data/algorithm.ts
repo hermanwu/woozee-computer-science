@@ -88,4 +88,17 @@ export const problems: Array<Question> = [
     },
     topics: [QuestionTopic.TREE_TRAVERSALS],
   },
+  {
+    links:
+      'https://leetcode.com/problems/letter-combinations-of-a-phone-number/',
+    title: '17. Letter Combinations of a Phone Number',
+    methodology: [Methodology.RECURSION_WITH_RESULT],
+    algorithm: [Algorithm.SEARCH_DFS, Algorithm.BACK_TRACKING],
+    dataStructure: [DataStructure.ARRAY, DataStructure.STRING],
+    difficulty: 'medium',
+    note: {
+      text: 'use map to track all numbers',
+    },
+    topics: [QuestionTopic.PERMUTATION],
+  },
 ];
