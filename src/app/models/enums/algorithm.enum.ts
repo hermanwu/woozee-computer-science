@@ -24,15 +24,7 @@ export enum Algorithm {
 
   BACK_TRACKING = '回溯 - explore possibility',
 
-  DP_DYNAMIC_PROGRAMMING = '',
-  DP_BACKPACK = '',
-  DP_COORDINATE = '',
-  DP_PREFIX = '',
-  DP_INTERVAL = '',
-  DP_STATE_COMPRESSION = '',
-  DP_GAME = '',
-  DP_TWO_SEQUENCES = '',
-  DP_TREE = '',
+  DP = '',
 
   SEARCH_MEMORIZATION = '',
   SEARCH_DFS = '深度优先搜索',

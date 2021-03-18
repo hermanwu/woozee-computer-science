@@ -5,3 +5,38 @@
   作者：摸鱼酱 链接：https://juejin.cn/post/6931313450836557838 来源：掘金
   著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 </p>
+
+<h1>How to design a long process action</h1>
+<p>
+  1 . Triggered by multiple API requests. Action is considered to be finished
+  once all API requests are finished. (i.e. create network, upload ISO/disk
+  images). We are using blocking modal in this case.
+  <br />
+  2. Triggered by single API request. But it is handled asynchronously in
+  backend and front end won't know whether the action is finished. It is similar
+  to slam action request in Ignite. (i.e. power on/off server action) We could
+  use a snackbar to indicate that request is received by backend and pull the
+  data every 30 sec on frontend. From a UX perspective, we also could disable
+  the button until user refreshes the page or new data is pulled.
+  <br />
+  3. Triggered by single API request. But it takes long time to process in
+  backend (i.e. create environment action needs access multiple tables to create
+  composition profile, disk spec, nic spec, compute spec, etc) In this case, we
+  could use the approach either from 1 or 2. With approach 2, the only
+  difference is that we don't need pull data every 30 seconds. Instead, we will
+  wait until the API request is resolved.
+  <br />
+  4. Triggered by single API request, but encountered technical issue such as
+  network delay or hardware failure. Any API request could encounter this issue.
+  However, since our software is designed for datacenter admin / environment, I
+  don't think it is high priority. We could just have a universal http
+  intercepter and display error snackbar when request fails/times out.
+
+  <br />
+  These are all the situations that can be "long processing". Please comment if
+  you can think of any others. My current thought is that we can make UX
+  decision based on whether we want to user perform other actions during the
+  long processing action. If we don't want user to do anything else, we could
+  use blocking modal. Otherwise, we could use snackbar/consistently
+  pulling/disabled button.
+</p>

@@ -13,4 +13,5 @@ export interface Question {
   topics?: QuestionTopic[];
   note: Note;
   difficulty?: string;
+  solutions?: string[];
 }
