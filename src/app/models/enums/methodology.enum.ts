@@ -1,6 +1,7 @@
 export enum Methodology {
   RECURSION = '递归',
-  RECURSION_WITH_RESULT = '递归',
+  RECURSION_WITH_RESULT = '递归携带答案',
+  RECURSION_RETURN_RESULT = '递归返回答案',
 
   // TREE
   TREE_LEVEL_ORDER_TRAVERSAL = '逐层遍历',

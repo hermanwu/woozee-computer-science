@@ -1,5 +1,6 @@
 import { Algorithm } from '../models/enums/algorithm.enum';
 import { DataStructure } from '../models/enums/data-structure.enum';
+import { Difficulty } from '../models/enums/difficulty.enum';
 import { Methodology } from '../models/enums/methodology.enum';
 import { QuestionTopic } from '../models/enums/question-topic.enum';
 import { Question } from '../models/question';
@@ -86,7 +87,7 @@ export const problems: Array<Question> = [
     note: {
       text: 'leaf node first -> then left and right node',
     },
-    topics: [QuestionTopic.TREE_TRAVERSALS],
+    topics: [QuestionTopic.PATH_SUM],
   },
   {
     links: 'https://leetcode.com/problems/daily-temperatures',
@@ -126,5 +127,20 @@ export const problems: Array<Question> = [
     },
     topics: [QuestionTopic.PALINDROME],
     solutions: ['https://leetcode.com/submissions/detail/138565240/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/path-sum/',
+    title: '112. Path Sum',
+    methodology: [Methodology.RECURSION_RETURN_RESULT],
+    dataStructure: [DataStructure.TREE],
+    algorithm: [Algorithm.SEARCH_DFS],
+    difficulty: Difficulty.EASY,
+    note: {
+      text: 'node with one child is not leaf node',
+    },
+    topics: [QuestionTopic.PATH_SUM],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/a9c12fbca99d43c75fd6ce965bd869cc547093dd/Tree/path-sum/path-sum/path-sum.ts',
+    ],
   },
 ];
