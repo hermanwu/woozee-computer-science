@@ -2,6 +2,7 @@ import { Algorithm } from '../models/enums/algorithm.enum';
 import { DataStructure } from '../models/enums/data-structure.enum';
 import { Difficulty } from '../models/enums/difficulty.enum';
 import { Methodology } from '../models/enums/methodology.enum';
+import { Priority } from '../models/enums/priority.enum';
 import { QuestionTopic } from '../models/enums/question-topic.enum';
 import { Question } from '../models/question';
 
@@ -142,5 +143,21 @@ export const problems: Array<Question> = [
     solutions: [
       'https://github.com/hermanwu/algorithm-woo/blob/a9c12fbca99d43c75fd6ce965bd869cc547093dd/Tree/path-sum/path-sum/path-sum.ts',
     ],
+  },
+  {
+    links: 'https://leetcode.com/problems/design-tic-tac-toe/',
+    title: 'Tic Tac Toe Design',
+    methodology: [Methodology.BOARD_GAME_VERIFICATION],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.SEARCH_MEMORIZATION],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'To get solution efficiently, track sum.',
+    },
+    topics: [QuestionTopic.BOARD_GAME],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/6744b04a4e91f0b12e874b6b8e52ba2b3e6d192d/Matrix/board-games/tic-tac-toe/tic-tac-toe.ts',
+    ],
+    priority: Priority.SUPER,
   },
 ];

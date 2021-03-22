@@ -21,4 +21,6 @@ export enum Methodology {
   DP_TREE = '',
 
   TWO_POINTERS = '双指针',
+
+  BOARD_GAME_VERIFICATION = '棋盘确认',
 }

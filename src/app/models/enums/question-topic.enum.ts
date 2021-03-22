@@ -8,4 +8,6 @@ export enum QuestionTopic {
   COMBINATION_PERMUTATION = '排列组合',
 
   PALINDROME = '同文串',
+
+  BOARD_GAME = '桌面游戏',
 }
