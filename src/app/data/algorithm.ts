@@ -131,7 +131,7 @@ export const problems: Array<Question> = [
   },
   {
     links: 'https://leetcode.com/problems/path-sum/',
-    title: '112. Path Sum',
+    title: 'Path Sum',
     methodology: [Methodology.RECURSION_RETURN_RESULT],
     dataStructure: [DataStructure.TREE],
     algorithm: [Algorithm.SEARCH_DFS],
@@ -143,6 +143,23 @@ export const problems: Array<Question> = [
     solutions: [
       'https://github.com/hermanwu/algorithm-woo/blob/a9c12fbca99d43c75fd6ce965bd869cc547093dd/Tree/path-sum/path-sum/path-sum.ts',
     ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/path-sum-ii/',
+    title: 'Path Sum II',
+    methodology: [Methodology.RECURSION_WITH_RESULT],
+    dataStructure: [DataStructure.TREE],
+    algorithm: [Algorithm.SEARCH_DFS],
+    difficulty: Difficulty.EASY,
+    note: {
+      text: 'node with one child is not leaf node',
+    },
+    topics: [QuestionTopic.PATH_SUM],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/4c9cbcc669d4276f00eae547144bcef9a403509c/Tree/path-sum/path-sum/path-sum-ii.ts',
+    ],
+    priority: Priority.MEDIUM,
   },
   {
     links: 'https://leetcode.com/problems/design-tic-tac-toe/',
