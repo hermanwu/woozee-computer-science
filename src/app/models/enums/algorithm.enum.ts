@@ -48,4 +48,6 @@ export enum Algorithm {
   RANDOM = '',
 
   RESERVOIR_SAMPLING = '',
+
+  Kadane = '卡单',
 }

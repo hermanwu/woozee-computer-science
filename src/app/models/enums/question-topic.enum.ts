@@ -10,4 +10,6 @@ export enum QuestionTopic {
   PALINDROME = '同文串',
 
   BOARD_GAME = '桌面游戏',
+
+  SUB_ARRAY = '子序列',
 }

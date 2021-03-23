@@ -177,4 +177,20 @@ export const problems: Array<Question> = [
     ],
     priority: Priority.SUPER,
   },
+  {
+    links: 'https://leetcode.com/problems/maximum-subarray/',
+    title: 'Maximum Subarray',
+    methodology: [Methodology.DP_TAKE_IT_OR_NOT],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.Kadane],
+    difficulty: Difficulty.BASIC,
+    note: {
+      text: 'To get solution efficiently, track sum.',
+    },
+    topics: [QuestionTopic.SUB_ARRAY],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/61c03ac133fff388159a19499bac9a51dc9c5bcd/DP/maximum-subarray/maxium-subarray.ts',
+    ],
+    priority: Priority.SUPER,
+  },
 ];

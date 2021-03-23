@@ -19,6 +19,7 @@ export enum Methodology {
   DP_GAME = '',
   DP_TWO_SEQUENCES = '',
   DP_TREE = '',
+  DP_TAKE_IT_OR_NOT = '取舍'
 
   TWO_POINTERS = '双指针',
 
