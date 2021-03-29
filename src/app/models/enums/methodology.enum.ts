@@ -12,14 +12,14 @@ export enum Methodology {
   // DP
   DP_INTERVAL = '动态规划',
   DP_DYNAMIC_PROGRAMMING = '',
-  DP_BACKPACK = '',
   DP_COORDINATE = '',
   DP_PREFIX = '',
   DP_STATE_COMPRESSION = '',
   DP_GAME = '',
   DP_TWO_SEQUENCES = '',
   DP_TREE = '',
-  DP_TAKE_IT_OR_NOT = '取舍'
+  DP_TAKE_IT_OR_NOT = '取舍',
+  DP_KNAPSACK = '动态规划-背包问题',
 
   TWO_POINTERS = '双指针',
 

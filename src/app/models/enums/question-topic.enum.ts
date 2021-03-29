@@ -12,4 +12,8 @@ export enum QuestionTopic {
   BOARD_GAME = '桌面游戏',
 
   SUB_ARRAY = '子序列',
+
+  ITERATOR = '迭代',
+
+  KNAPSACK = '背包',
 }

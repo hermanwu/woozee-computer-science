@@ -193,4 +193,38 @@ export const problems: Array<Question> = [
     ],
     priority: Priority.SUPER,
   },
+  {
+    links: 'https://leetcode.com/problems/flatten-2d-vector/',
+    title: 'Flatten 2D Vector',
+    methodology: [],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.GREEDY],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'use index === array.length to array is finished iterating or empty',
+    },
+    topics: [QuestionTopic.ITERATOR],
+    solutions: [
+      'https://leetcode.com/problems/flatten-2d-vector/discuss/275940/Java-simple-solution',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/coin-change-2/',
+    title: 'Coin Change 2',
+    methodology: [Methodology.DP_KNAPSACK],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.DP],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'use index === array.length to array is finished iterating or empty',
+    },
+    topics: [QuestionTopic.KNAPSACK],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/429104dd00e90126ae2c85d0f0ffbc9b48a745ac/DP/knapsack/coin-change-2.ts',
+    ],
+    priority: Priority.SUPER,
+  },
 ];

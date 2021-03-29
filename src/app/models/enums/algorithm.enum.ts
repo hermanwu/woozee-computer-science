@@ -24,7 +24,7 @@ export enum Algorithm {
 
   BACK_TRACKING = '回溯 - explore possibility',
 
-  DP = '',
+  DP = '动态规划',
 
   SEARCH_MEMORIZATION = '',
   SEARCH_DFS = '深度优先搜索',
