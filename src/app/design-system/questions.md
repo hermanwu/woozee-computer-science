@@ -8,3 +8,5 @@ Design Amazon.
 # Design Twitter
 
 # OO Design Bus Stop
+
+Design Structure.
