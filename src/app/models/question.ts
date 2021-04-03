@@ -9,12 +9,12 @@ import { QuestionTopic } from './enums/question-topic.enum';
 export interface Question {
   title: string;
   links: string | string[];
-  algorithm?: Array<Algorithm>;
-  methodology?: Array<Methodology>;
+  algorithm?: Array<Algorithm>; // First algorithm that came to mind.
+  methodology?: Array<Methodology>; // Links to small pattern.
   dataStructure: DataStructure[];
   topics?: QuestionTopic[];
-  note: Note;
+  note: Note; // Tips while solving the question.
   difficulty?: string | Difficulty;
-  solutions?: string[];
-  priority?: Priority;
+  solutions?: string[]; // Solution link.
+  priority?: Priority; // How important to understand this question.
 }

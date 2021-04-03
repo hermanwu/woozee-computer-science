@@ -228,17 +228,51 @@ export const problems: Array<Question> = [
     priority: Priority.SUPER,
   },
   {
-    links: 'https://leetcode.com/problems/basic-calculator/',
-    title: 'Coin Change 2',
-    methodology: [Methodology.DP_KNAPSACK],
-    dataStructure: [DataStructure.MATRIX],
+    links: 'https://leetcode.com/problems/word-break/',
+    title: 'Word Break',
+    methodology: [Methodology.DP_DYNAMIC_PROGRAMMING],
+    dataStructure: [DataStructure.ARRAY],
     algorithm: [Algorithm.DP],
     difficulty: Difficulty.MEDIUM,
     note: {
-      text:
-        'use index === array.length to array is finished iterating or empty',
+      text: 'use dp[i] to store whether s.slice(0, i) exist in the dictionary',
     },
     topics: [QuestionTopic.KNAPSACK],
+    solutions: [],
+    priority: Priority.SUPER,
+  },
+  {
+    links:
+      'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
+    title: 'Serialize and deserialize binary tree',
+    methodology: [Methodology.TREE_PREORDER_TRAVERSAL],
+    dataStructure: [DataStructure.TREE_BINARY_TREE],
+    algorithm: [],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'track null as in the string as well to indicate the terminate point.',
+    },
+    topics: [QuestionTopic.SERIALIZATION],
+    solutions: [],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/basic-calculator/',
+    title: 'Coin Change 2',
+    methodology: [Methodology.SIGN_HANDLING],
+    dataStructure: [DataStructure.STACK],
+    algorithm: [Algorithm.STACK_ARRAY],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'use stack to track current result and sign',
+      notes: [
+        { text: '1. number, 2. + -, 3 parenthesis handling' },
+        { text: 'remember to handle space.' },
+        { text: 'Use sign to handle +/- operator' },
+      ],
+    },
+    topics: [QuestionTopic.CALCULATOR],
     solutions: [
       '  https://github.com/hermanwu/algorithm-woo/blob/master/Stack/calculator/basic-calculator/basic-calculator.ts',
     ],

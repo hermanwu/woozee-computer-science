@@ -50,4 +50,6 @@ export enum Algorithm {
   RESERVOIR_SAMPLING = '',
 
   Kadane = '卡单',
+
+  STACK_ARRAY = '',
 }

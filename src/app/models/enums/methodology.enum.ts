@@ -24,4 +24,8 @@ export enum Methodology {
   TWO_POINTERS = '双指针',
 
   BOARD_GAME_VERIFICATION = '棋盘确认',
+
+  TREE_PREORDER_TRAVERSAL = '前序遍历',
+
+  SIGN_HANDLING = 'link',
 }

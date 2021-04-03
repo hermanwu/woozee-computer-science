@@ -16,4 +16,8 @@ export enum QuestionTopic {
   ITERATOR = '迭代',
 
   KNAPSACK = '背包',
+
+  SERIALIZATION = '',
+
+  CALCULATOR = '计算器',
 }
