@@ -227,4 +227,21 @@ export const problems: Array<Question> = [
     ],
     priority: Priority.SUPER,
   },
+  {
+    links: 'https://leetcode.com/problems/basic-calculator/',
+    title: 'Coin Change 2',
+    methodology: [Methodology.DP_KNAPSACK],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.DP],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'use index === array.length to array is finished iterating or empty',
+    },
+    topics: [QuestionTopic.KNAPSACK],
+    solutions: [
+      '  https://github.com/hermanwu/algorithm-woo/blob/master/Stack/calculator/basic-calculator/basic-calculator.ts',
+    ],
+    priority: Priority.SUPER,
+  },
 ];
