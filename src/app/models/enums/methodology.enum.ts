@@ -28,4 +28,6 @@ export enum Methodology {
   TREE_PREORDER_TRAVERSAL = '前序遍历',
 
   SIGN_HANDLING = 'link',
+
+  MOD = '取餘',
 }
