@@ -30,4 +30,6 @@ export enum Methodology {
   SIGN_HANDLING = 'link',
 
   MOD = '取餘',
+
+  ARRAY_AVOID_DUPLICATE = '数组去重',
 }
