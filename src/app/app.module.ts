@@ -13,6 +13,7 @@ import { AppMaterialModule } from './shared/app-material.module';
 import { ResumeTipsComponent } from './resume-tips/resume-tips.component';
 import { AlgorithmComponent } from './algorithm/algorithm.component';
 import { ProblemTableComponent } from './molecules/problem-table/problem-table.component';
+import { QuestionAnswerPanelComponent } from './behaviors/molecules/question-answer-panel/question-answer-panel.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProblemTableComponent } from './molecules/problem-table/problem-table.c
     ResumeTipsComponent,
     AlgorithmComponent,
     ProblemTableComponent,
+    QuestionAnswerPanelComponent,
   ],
   imports: [
     BrowserModule,

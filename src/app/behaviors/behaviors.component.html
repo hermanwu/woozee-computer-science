@@ -7,3 +7,7 @@
   <p>4. Reach agreement</p>
   <p>5. Assign people with authority</p>
 </div>
+
+<ng-container *ngFor="let question of questions">
+  <app-question-answer-panel [question]="question"></app-question-answer-panel>
+</ng-container>
