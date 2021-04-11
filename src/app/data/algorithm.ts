@@ -241,6 +241,7 @@ export const problems: Array<Question> = [
     solutions: [],
     priority: Priority.SUPER,
   },
+
   {
     links:
       'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
@@ -277,5 +278,27 @@ export const problems: Array<Question> = [
       '  https://github.com/hermanwu/algorithm-woo/blob/master/Stack/calculator/basic-calculator/basic-calculator.ts',
     ],
     priority: Priority.SUPER,
+  },
+
+  {
+    links: 'https://leetcode.com/problems/sentence-screen-fitting/',
+    title: 'Sentence Screen Fitting',
+    methodology: [Methodology.MOD],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.GREEDY],
+    difficulty: Difficulty.HARD,
+    note: {
+      text: 'use stack to track current result and sign',
+      notes: [
+        { text: 'Use mod to track current fitting' },
+        {
+          text:
+            'DP[i] could be used to track how many word will fit start with i on screen',
+        },
+      ],
+    },
+    topics: [QuestionTopic.WORD],
+    solutions: [],
+    priority: Priority.MEDIUM,
   },
 ];
