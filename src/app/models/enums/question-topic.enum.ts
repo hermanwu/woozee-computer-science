@@ -23,4 +23,6 @@ export enum QuestionTopic {
   SERIALIZATION = '',
 
   CALCULATOR = '计算器',
+
+  MAZE = '迷宫',
 }
