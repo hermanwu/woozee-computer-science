@@ -5,6 +5,7 @@ export enum QuestionTopic {
   TREE_TRAVERSALS = '树的转移',
 
   PERMUTATION = '排列',
+
   PATH_SUM = '路径和',
 
   COMBINATION_PERMUTATION = '排列组合',

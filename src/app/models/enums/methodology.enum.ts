@@ -12,6 +12,7 @@ export enum Methodology {
   // DP
   DP_INTERVAL = '动态规划',
   DP_DYNAMIC_PROGRAMMING = '',
+  DP_BACKPACK = '',
   DP_COORDINATE = '',
   DP_PREFIX = '',
   DP_STATE_COMPRESSION = '',

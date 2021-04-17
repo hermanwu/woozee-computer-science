@@ -314,4 +314,68 @@ export const problems: Array<Question> = [
     },
     topics: [QuestionTopic.PERMUTATION],
   },
+  {
+    links: 'https://leetcode.com/problems/daily-temperatures',
+    title: '739 Daily Temperature',
+    methodology: [Methodology.MONOTONIC_STACK],
+    dataStructure: [DataStructure.STACK],
+    difficulty: 'medium',
+    note: {
+      text:
+        'If top stack number is smaller than current number, pop; If top number is larger than current number, push;',
+    },
+    solutions: [
+      'https://leetcode.com/problems/daily-temperatures/discuss/157886/javascript-stack-solution-with-explaination',
+    ],
+  },
+  {
+    links: 'https://leetcode.com/problems/combination-sum/',
+    title: '39. Combination Sum',
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.BACK_TRACKING],
+    difficulty: 'medium',
+    note: {
+      text: 'remember to back track.',
+    },
+    topics: [QuestionTopic.COMBINATION_PERMUTATION],
+    solutions: ['https://leetcode.com/submissions/detail/133671067/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/longest-palindromic-substring',
+    title: '5. Longest palindromic substring',
+    methodology: [Methodology.DP_INTERVAL, Methodology.TWO_POINTERS],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.DP],
+    difficulty: 'medium',
+    note: {
+      text: 'Handle even and odd separately.',
+    },
+    topics: [QuestionTopic.PALINDROME],
+    solutions: ['https://leetcode.com/submissions/detail/138565240/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/longest-palindromic-substring',
+    title: '5. Longest palindromic substring',
+    methodology: [Methodology.DP_INTERVAL, Methodology.TWO_POINTERS],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.DP],
+    difficulty: 'medium',
+    note: {
+      text: 'Handle even and odd separately.',
+    },
+    topics: [QuestionTopic.PALINDROME],
+    solutions: ['https://leetcode.com/submissions/detail/138565240/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/middle-of-the-linked-list',
+    title: 'Middle of the linked list',
+    methodology: [Methodology.TWO_POINTERS_FAST_SLOW],
+    dataStructure: [DataStructure.LinkedList],
+    note: {
+      text: 'set both fast and slow to be first node',
+    },
+    solutions: [
+      'https://leetcode.com/problems/middle-of-the-linked-list/solution/',
+    ],
+  },
 ];
