@@ -1,0 +1,11 @@
+<label>{{ question.question }}</label>
+
+<ul>
+  <li *ngFor="let thought of question.thoughts">
+    {{ thought }}
+  </li>
+
+  <li *ngFor="let tip of question.tips">
+    {{ tip }}
+  </li>
+</ul>

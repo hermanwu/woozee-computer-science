@@ -19,3 +19,5 @@ export const designSystem = {
     {},
   ],
 };
+
+export const youtubeDesign = {};

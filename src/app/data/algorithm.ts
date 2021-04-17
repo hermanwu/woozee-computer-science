@@ -1,6 +1,8 @@
 import { Algorithm } from '../models/enums/algorithm.enum';
 import { DataStructure } from '../models/enums/data-structure.enum';
+import { Difficulty } from '../models/enums/difficulty.enum';
 import { Methodology } from '../models/enums/methodology.enum';
+import { Priority } from '../models/enums/priority.enum';
 import { QuestionTopic } from '../models/enums/question-topic.enum';
 import { Question } from '../models/question';
 
@@ -86,7 +88,218 @@ export const problems: Array<Question> = [
     note: {
       text: 'leaf node first -> then left and right node',
     },
-    topics: [QuestionTopic.TREE_TRAVERSALS],
+    topics: [QuestionTopic.PATH_SUM],
+  },
+  {
+    links: 'https://leetcode.com/problems/daily-temperatures',
+    title: '739 Daily Temperature',
+    methodology: [Methodology.MONOTONIC_STACK],
+    dataStructure: [DataStructure.STACK],
+    difficulty: 'medium',
+    note: {
+      text:
+        'If top stack number is smaller than current number, pop; If top number is larger than current number, push;',
+    },
+    solutions: [
+      'https://leetcode.com/problems/daily-temperatures/discuss/157886/javascript-stack-solution-with-explaination',
+    ],
+  },
+  {
+    links: 'https://leetcode.com/problems/combination-sum/',
+    title: '39. Combination Sum',
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.BACK_TRACKING],
+    difficulty: 'medium',
+    note: {
+      text: 'remember to back track.',
+    },
+    topics: [QuestionTopic.COMBINATION_PERMUTATION],
+    solutions: ['https://leetcode.com/submissions/detail/133671067/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/longest-palindromic-substring',
+    title: '5. Longest palindromic substring',
+    methodology: [Methodology.DP_INTERVAL, Methodology.TWO_POINTERS],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.DP],
+    difficulty: 'medium',
+    note: {
+      text: 'Handle even and odd separately.',
+    },
+    topics: [QuestionTopic.PALINDROME],
+    solutions: ['https://leetcode.com/submissions/detail/138565240/'],
+  },
+  {
+    links: 'https://leetcode.com/problems/path-sum/',
+    title: 'Path Sum',
+    methodology: [Methodology.RECURSION_RETURN_RESULT],
+    dataStructure: [DataStructure.TREE],
+    algorithm: [Algorithm.SEARCH_DFS],
+    difficulty: Difficulty.EASY,
+    note: {
+      text: 'node with one child is not leaf node',
+    },
+    topics: [QuestionTopic.PATH_SUM],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/a9c12fbca99d43c75fd6ce965bd869cc547093dd/Tree/path-sum/path-sum/path-sum.ts',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/path-sum-ii/',
+    title: 'Path Sum II',
+    methodology: [Methodology.RECURSION_WITH_RESULT],
+    dataStructure: [DataStructure.TREE],
+    algorithm: [Algorithm.SEARCH_DFS],
+    difficulty: Difficulty.EASY,
+    note: {
+      text: 'node with one child is not leaf node',
+    },
+    topics: [QuestionTopic.PATH_SUM],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/4c9cbcc669d4276f00eae547144bcef9a403509c/Tree/path-sum/path-sum/path-sum-ii.ts',
+    ],
+    priority: Priority.MEDIUM,
+  },
+  {
+    links: 'https://leetcode.com/problems/design-tic-tac-toe/',
+    title: 'Tic Tac Toe Design',
+    methodology: [Methodology.BOARD_GAME_VERIFICATION],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.SEARCH_MEMORIZATION],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'To get solution efficiently, track sum.',
+    },
+    topics: [QuestionTopic.BOARD_GAME],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/6744b04a4e91f0b12e874b6b8e52ba2b3e6d192d/Matrix/board-games/tic-tac-toe/tic-tac-toe.ts',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/maximum-subarray/',
+    title: 'Maximum Subarray',
+    methodology: [Methodology.DP_TAKE_IT_OR_NOT],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.Kadane],
+    difficulty: Difficulty.BASIC,
+    note: {
+      text: 'To get solution efficiently, track sum.',
+    },
+    topics: [QuestionTopic.SUB_ARRAY],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/61c03ac133fff388159a19499bac9a51dc9c5bcd/DP/maximum-subarray/maxium-subarray.ts',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/flatten-2d-vector/',
+    title: 'Flatten 2D Vector',
+    methodology: [],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.GREEDY],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'use index === array.length to array is finished iterating or empty',
+    },
+    topics: [QuestionTopic.ITERATOR],
+    solutions: [
+      'https://leetcode.com/problems/flatten-2d-vector/discuss/275940/Java-simple-solution',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/coin-change-2/',
+    title: 'Coin Change 2',
+    methodology: [Methodology.DP_KNAPSACK],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.DP],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'use index === array.length to array is finished iterating or empty',
+    },
+    topics: [QuestionTopic.KNAPSACK],
+    solutions: [
+      'https://github.com/hermanwu/algorithm-woo/blob/429104dd00e90126ae2c85d0f0ffbc9b48a745ac/DP/knapsack/coin-change-2.ts',
+    ],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/word-break/',
+    title: 'Word Break',
+    methodology: [Methodology.DP_DYNAMIC_PROGRAMMING],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.DP],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'use dp[i] to store whether s.slice(0, i) exist in the dictionary',
+    },
+    topics: [QuestionTopic.KNAPSACK],
+    solutions: [],
+    priority: Priority.SUPER,
+  },
+
+  {
+    links:
+      'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
+    title: 'Serialize and deserialize binary tree',
+    methodology: [Methodology.TREE_PREORDER_TRAVERSAL],
+    dataStructure: [DataStructure.TREE_BINARY_TREE],
+    algorithm: [],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text:
+        'track null as in the string as well to indicate the terminate point.',
+    },
+    topics: [QuestionTopic.SERIALIZATION],
+    solutions: [],
+    priority: Priority.SUPER,
+  },
+  {
+    links: 'https://leetcode.com/problems/basic-calculator/',
+    title: 'Coin Change 2',
+    methodology: [Methodology.SIGN_HANDLING],
+    dataStructure: [DataStructure.STACK],
+    algorithm: [Algorithm.STACK_ARRAY],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'use stack to track current result and sign',
+      notes: [
+        { text: '1. number, 2. + -, 3 parenthesis handling' },
+        { text: 'remember to handle space.' },
+        { text: 'Use sign to handle +/- operator' },
+      ],
+    },
+    topics: [QuestionTopic.CALCULATOR],
+    solutions: [
+      '  https://github.com/hermanwu/algorithm-woo/blob/master/Stack/calculator/basic-calculator/basic-calculator.ts',
+    ],
+    priority: Priority.SUPER,
+  },
+
+  {
+    links: 'https://leetcode.com/problems/sentence-screen-fitting/',
+    title: 'Sentence Screen Fitting',
+    methodology: [Methodology.MOD],
+    dataStructure: [DataStructure.ARRAY],
+    algorithm: [Algorithm.GREEDY],
+    difficulty: Difficulty.HARD,
+    note: {
+      text: 'use stack to track current result and sign',
+      notes: [
+        { text: 'Use mod to track current fitting' },
+        {
+          text:
+            'DP[i] could be used to track how many word will fit start with i on screen',
+        },
+      ],
+    },
+    topics: [QuestionTopic.WORD],
+    solutions: [],
+    priority: Priority.MEDIUM,
   },
   {
     links:

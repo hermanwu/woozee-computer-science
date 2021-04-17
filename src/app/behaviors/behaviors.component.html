@@ -1,1 +1,13 @@
-<p>behaviors works!</p>
+<div>Communication</div>
+<div>
+  How to solve a problem?
+  <p>1. Narrow down problem</p>
+  <p>2. Explain and discuss situations</p>
+  <p>3. Suggest solutions</p>
+  <p>4. Reach agreement</p>
+  <p>5. Assign people with authority</p>
+</div>
+
+<ng-container *ngFor="let question of questions">
+  <app-question-answer-panel [question]="question"></app-question-answer-panel>
+</ng-container>
