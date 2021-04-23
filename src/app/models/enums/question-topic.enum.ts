@@ -25,4 +25,6 @@ export enum QuestionTopic {
   CALCULATOR = '计算器',
 
   MAZE = '迷宫',
+
+  PREFIX_SUM = '',
 }

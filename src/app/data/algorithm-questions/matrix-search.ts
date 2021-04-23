@@ -24,4 +24,16 @@ export const matrixSearchProblems: Question[] = [
     ],
     topics: [QuestionTopic.MAZE],
   },
+  {
+    links: 'https://leetcode.com/problems/range-sum-query-2d-immutable/',
+    title: 'Range Sum Query 2D - Immutable',
+    methodology: [Methodology.PREFIX_SUM],
+    dataStructure: [DataStructure.MATRIX],
+    algorithm: [Algorithm.PREFIX_SUM],
+    note: {
+      text: 'Use overlapping theory to find sum union.',
+    },
+    solutions: [''],
+    topics: [QuestionTopic.PREFIX_SUM],
+  },
 ];
