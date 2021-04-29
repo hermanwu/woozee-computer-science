@@ -34,4 +34,8 @@ export enum Methodology {
   MOD = '取餘',
 
   ARRAY_AVOID_DUPLICATE = '数组去重',
+
+  DIRECTION_ITERATION = '多方向遍历',
+
+  PREFIX_SUM = '前序数组',
 }

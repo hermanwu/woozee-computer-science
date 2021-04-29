@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { problems } from '../data/algorithm';
+import { problems } from '../data/algorithm-questions/algorithm';
 @Component({
   selector: 'app-algorithm',
   templateUrl: './algorithm.component.html',

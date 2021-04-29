@@ -1,12 +1,12 @@
-import { Algorithm } from '../models/enums/algorithm.enum';
-import { DataStructure } from '../models/enums/data-structure.enum';
-import { Difficulty } from '../models/enums/difficulty.enum';
-import { Methodology } from '../models/enums/methodology.enum';
-import { Priority } from '../models/enums/priority.enum';
-import { QuestionTopic } from '../models/enums/question-topic.enum';
-import { Question } from '../models/question';
+import { Algorithm } from '../../models/enums/algorithm.enum';
+import { DataStructure } from '../../models/enums/data-structure.enum';
+import { Difficulty } from '../../models/enums/difficulty.enum';
+import { Methodology } from '../../models/enums/methodology.enum';
+import { Priority } from '../../models/enums/priority.enum';
+import { QuestionTopic } from '../../models/enums/question-topic.enum';
+import { Question } from '../../models/question';
 
-export const problems: Array<Question> = [
+export const algorithmQuestions: Array<Question> = [
   // {
   //   links: 'https://leetcode.com/problems/merge-intervals/',
   //   title: '56. Merge Intervals',
@@ -369,7 +369,7 @@ export const problems: Array<Question> = [
   {
     links: 'https://leetcode.com/problems/middle-of-the-linked-list',
     title: 'Middle of the linked list',
-    methodology: [Methodology.TWO_POINTERS_FASTER_SLOW],
+    methodology: [Methodology.TWO_POINTERS],
     dataStructure: [DataStructure.LinkedList],
     note: {
       text: 'set both fast and slow to be first node',
@@ -379,3 +379,5 @@ export const problems: Array<Question> = [
     ],
   },
 ];
+
+export const problems: Array<Question> = [...algorithmQuestions];
