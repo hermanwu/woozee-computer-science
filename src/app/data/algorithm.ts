@@ -369,7 +369,7 @@ export const problems: Array<Question> = [
   {
     links: 'https://leetcode.com/problems/middle-of-the-linked-list',
     title: 'Middle of the linked list',
-    methodology: [Methodology.TWO_POINTERS_FAST_SLOW],
+    methodology: [Methodology.TWO_POINTERS_FASTER_SLOW],
     dataStructure: [DataStructure.LinkedList],
     note: {
       text: 'set both fast and slow to be first node',

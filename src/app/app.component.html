@@ -1,4 +1,19 @@
-<woozee-top-bar></woozee-top-bar>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <!-- <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button> -->
+    <h1>Woozee Life</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button>书 | book</a>
+      <a mat-button>课 | course</a>
+      <a mat-button>码 | code</a>
+      <a mat-button>我 | about</a>
+      <a mat-button>神 | God</a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
 
 <woozee-side-nav [routeList]="routes"
   ><router-outlet></router-outlet

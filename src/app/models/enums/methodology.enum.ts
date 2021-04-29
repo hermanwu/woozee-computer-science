@@ -23,6 +23,7 @@ export enum Methodology {
   DP_KNAPSACK = '动态规划-背包问题',
 
   TWO_POINTERS = '双指针',
+  TWO_POINTERS_FASTER_SLOW = '',
 
   BOARD_GAME_VERIFICATION = '棋盘确认',
 

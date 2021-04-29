@@ -30,10 +30,6 @@ export class AppComponent {
       route: 'algorithm',
     },
     {
-      name: '算法',
-      route: 'algorithm',
-    },
-    {
       name: '前端开发',
       route: 'front-end',
     },
