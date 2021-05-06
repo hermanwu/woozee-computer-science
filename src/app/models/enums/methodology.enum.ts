@@ -1,3 +1,6 @@
+/**
+ * A blue print of solving a question.
+ */
 export enum Methodology {
   RECURSION = '递归',
   RECURSION_WITH_RESULT = '递归携带答案',
@@ -38,4 +41,5 @@ export enum Methodology {
   DIRECTION_ITERATION = '多方向遍历',
 
   PREFIX_SUM = '前序数组',
+  TREE_RECURSION = '树的递归',
 }

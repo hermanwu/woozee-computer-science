@@ -17,4 +17,5 @@ export interface Question {
   difficulty?: string | Difficulty;
   solutions?: string[]; // Solution link.
   priority?: Priority; // How important to understand this question.
+  companies?: string[];
 }

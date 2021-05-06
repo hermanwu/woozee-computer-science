@@ -378,6 +378,23 @@ export const algorithmQuestions: Array<Question> = [
       'https://leetcode.com/problems/middle-of-the-linked-list/solution/',
     ],
   },
+
+  {
+    links: 'https://leetcode.com/problems/minimum-knight-moves/',
+    title: 'Minimum Knight Moves',
+    methodology: [],
+    dataStructure: [DataStructure.ARRAY, DataStructure.QUEUE],
+    algorithm: [Algorithm.SEARCH_BFS],
+    difficulty: Difficulty.HARD,
+    note: {
+      text: 'use stack to track current result and sign',
+      notes: [{ text: 'four corner can be simplified to one corner' }],
+    },
+    topics: [QuestionTopic.BOARD_GAME],
+    solutions: [],
+    priority: Priority.MEDIUM,
+    companies: ['Google'],
+  },
 ];
 
 export const problems: Array<Question> = [...algorithmQuestions];
