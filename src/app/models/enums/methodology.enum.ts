@@ -41,5 +41,11 @@ export enum Methodology {
   DIRECTION_ITERATION = '多方向遍历',
 
   PREFIX_SUM = '前序数组',
+
   TREE_RECURSION = '树的递归',
+  TREE_PRE_ORDER = '前序遍历',
+
+  TREE_IN_ORDER = '中序遍历',
+
+  TREE_POST_ORDER = '后序遍历',
 }
