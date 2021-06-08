@@ -67,11 +67,20 @@ export const methodologies = [
     type: Methodology.DP_KNAPSACK,
     steps: [
       'understanding the states to track, use dp state to track the largest number',
-      'Limit (space, days), Varired cost( money), Min or Max value '
+      'Limit (space, days), Varired cost( money), Min or Max value ',
       'if a state can not be track, use for loop',
       'initial state',
       'state transfer function',
       'return result',
+    ],
+  },
+
+  {
+    type: Methodology.DP_TWO_SEQUENCES,
+    steps: [
+      'setup a 2D array with m and n.',
+      'identity sequence and subsequence',
+      'subsequence character always needs to be selected, sequence does not need to be selected.',
     ],
   },
 ];

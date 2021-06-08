@@ -20,7 +20,7 @@ export enum Methodology {
   DP_PREFIX = '',
   DP_STATE_COMPRESSION = '',
   DP_GAME = '',
-  DP_TWO_SEQUENCES = '',
+  DP_TWO_SEQUENCES = '动态规划-排序',
   DP_TREE = '',
   DP_TAKE_IT_OR_NOT = '取舍',
   DP_KNAPSACK = '动态规划-背包问题',
