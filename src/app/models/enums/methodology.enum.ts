@@ -48,4 +48,10 @@ export enum Methodology {
   TREE_IN_ORDER = '中序遍历',
 
   TREE_POST_ORDER = '后序遍历',
+
+  SLIDING_WINDOW_STACK = '移动窗口 + 栈',
+
+  // Graph
+  UNION_TREE = '合并集合',
+  PARENT_LOOKING = '找父亲',
 }

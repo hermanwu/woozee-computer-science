@@ -27,4 +27,8 @@ export enum QuestionTopic {
   MAZE = '迷宫',
 
   PREFIX_SUM = '',
+
+  ENCODE_DECODE = '编译破译',
+
+  GRAPH = '图论',
 }

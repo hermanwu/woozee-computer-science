@@ -52,4 +52,6 @@ export enum Algorithm {
   Kadane = '卡单',
 
   STACK_ARRAY = '',
+
+  UNION_FIND = '并查集',
 }

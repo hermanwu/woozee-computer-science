@@ -382,7 +382,7 @@ export const algorithmQuestions: Array<Question> = [
   {
     links: 'https://leetcode.com/problems/minimum-knight-moves/',
     title: 'Minimum Knight Moves',
-    methodology: [],
+    methodology: [Methodology.SLIDING_WINDOW_STACK],
     dataStructure: [DataStructure.ARRAY, DataStructure.QUEUE],
     algorithm: [Algorithm.SEARCH_BFS],
     difficulty: Difficulty.HARD,
@@ -394,6 +394,39 @@ export const algorithmQuestions: Array<Question> = [
     solutions: [],
     priority: Priority.MEDIUM,
     companies: ['Google'],
+  },
+
+  {
+    links: 'https://leetcode.com/problems/decode-string/',
+    title: 'Decode String',
+    methodology: [Methodology.SLIDING_WINDOW_STACK],
+    dataStructure: [DataStructure.STACK],
+    algorithm: [Algorithm.STACK_ARRAY],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'Keep adding to stack when you encounter a square bracket',
+      notes: [{ text: 'track both current string and number' }],
+    },
+    topics: [QuestionTopic.ENCODE_DECODE],
+    solutions: [],
+    priority: Priority.MEDIUM,
+    companies: ['Facebook'],
+  },
+
+  {
+    links: 'https://leetcode.com/problems/graph-valid-tree/',
+    title: 'Valid Tree',
+    methodology: [Methodology.PARENT_LOOKING, Methodology.UNION_TREE],
+    dataStructure: [DataStructure.GRAPH],
+    algorithm: [Algorithm.UNION_FIND],
+    difficulty: Difficulty.MEDIUM,
+    note: {
+      text: 'Use map to track parent',
+    },
+    topics: [QuestionTopic.GRAPH],
+    solutions: [],
+    priority: Priority.MEDIUM,
+    companies: ['Facebook'],
   },
 ];
 
