@@ -22,13 +22,15 @@ export enum QuestionTopic {
 
   SERIALIZATION = '',
 
+  SHORTEST_DISTANCE = 'Shortest Distance 最短距离',
+
   CALCULATOR = '计算器',
 
   MAZE = '迷宫',
 
   PREFIX_SUM = '',
 
-  ENCODE_DECODE = '编译破译',
+  ENCODE_DECODE = 'Encode and Decode 编译破译',
 
   GRAPH = '图论',
 }

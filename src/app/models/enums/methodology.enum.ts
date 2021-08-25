@@ -6,6 +6,8 @@ export enum Methodology {
   RECURSION_WITH_RESULT = '递归携带答案',
   RECURSION_RETURN_RESULT = '递归返回答案',
 
+  BFS = 'BFS 宽度优先搜索',
+
   // TREE
   TREE_LEVEL_ORDER_TRAVERSAL = '逐层遍历',
 

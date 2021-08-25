@@ -1,6 +1,6 @@
 export enum DataStructure {
   ARRAY = '',
-  MATRIX = '矩阵',
+  MATRIX = 'Matrix 矩阵',
   STRING = '',
   LinkedList = '单向链',
   LinkedList_DOUBLY_LINKED = '',
@@ -10,20 +10,20 @@ export enum DataStructure {
   DEQUE = '',
   PRIORITY_QUEUE = '',
 
-  STACK = '',
+  STACK = 'Stack 栈',
   STACK_MONOTONIC = '',
 
   TREE = '',
   TREE_BINARY_TREE = '',
   BINARY_SEARCH_TREE = '',
   HEAP = '',
-  GRAPH = '',
+  GRAPH = 'Graph 图',
   BIPARTITE_GRAPH = '',
 
   HASH_TABLE = '',
   ROLLING_HASH = '',
 
-  TRIE = '',
+  TRIE = 'Trie 树',
   UNION_FIND = '',
 
   BINARY_INDEXED_TREE = '',

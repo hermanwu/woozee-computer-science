@@ -13,20 +13,22 @@ export class ProblemTableComponent implements OnInit {
 
   @Input() problems: Array<Question>;
   readonly columnsToDisplay = [
+    'topics',
+    'dataStructure',
     'title',
     'algorithm',
-    'data-structure',
-    'question-topic',
+    'methodology',
   ];
 
   dataSource = new MatTableDataSource<any>();
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.dataSource.data = this.problems;
+  }
 
   ngAfterViewInit(): void {
-    this.dataSource.data = this.problems;
     this.dataSource.sort = this.sort;
   }
 }
