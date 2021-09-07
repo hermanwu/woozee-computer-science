@@ -33,4 +33,6 @@ export enum QuestionTopic {
   ENCODE_DECODE = 'Encode and Decode 编译破译',
 
   GRAPH = '图论',
+
+  SLIDING_WINDOW = 'Sliding Window 滑动窗口',
 }

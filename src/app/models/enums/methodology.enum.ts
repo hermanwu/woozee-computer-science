@@ -51,7 +51,7 @@ export enum Methodology {
 
   TREE_POST_ORDER = '后序遍历',
 
-  SLIDING_WINDOW_STACK = '移动窗口 + 栈',
+  SLIDING_WINDOW_STACK = 'Sliding Window Stack 移动窗口 + 栈',
 
   // Graph
   UNION_TREE = '合并集合',
