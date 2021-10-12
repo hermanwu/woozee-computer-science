@@ -1,1 +1,30 @@
+<mat-form-field appearance="fill">
+  <mat-label>Algorithms</mat-label>
+  <mat-select multiple>
+    <mat-option *ngFor="let algorithm of algorithms" [value]="algorithm">{{
+      algorithm
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Topics</mat-label>
+  <mat-select multiple>
+    <mat-option *ngFor="let topic of topics" [value]="topic">{{
+      topic
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Methodology</mat-label>
+  <mat-select multiple>
+    <mat-option
+      *ngFor="let methodology of methodologies"
+      [value]="methodology"
+      >{{ methodology }}</mat-option
+    >
+  </mat-select>
+</mat-form-field>
+
 <app-problem-table [problems]="problems"></app-problem-table>

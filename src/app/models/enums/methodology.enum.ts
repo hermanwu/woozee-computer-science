@@ -9,13 +9,13 @@ export enum Methodology {
   BFS = 'BFS 宽度优先搜索',
 
   // TREE
-  TREE_LEVEL_ORDER_TRAVERSAL = '逐层遍历',
+  TREE_LEVEL_ORDER_TRAVERSAL = '数-逐层遍历',
 
   // STACK.
   MONOTONIC_STACK = '单调栈',
 
   // DP
-  DP_INTERVAL = '动态规划',
+  DP_INTERVAL = '动态规划-',
   DP_DYNAMIC_PROGRAMMING = '',
   DP_BACKPACK = '',
   DP_COORDINATE = '',
